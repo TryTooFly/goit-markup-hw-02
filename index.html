@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studia</title>
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- Шапка Сайта-->
     <header>
       <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href=""></a>Студия</li>
-          <li><a href=""></a>Портфолио</li>
-          <li><a href=""></a>Контакты</li>
+        <a href="/" class="logo">Web<span class="accent">Studio</span></a>
+        <ul class="site-nav">
+          <li><a href="/" class="current">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a href="/">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <!-- Решения для бизнеса-->
-        <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button">Заказать услугу</button>
         </section>
       <!-- Особенности в работах-->
-      <section>
-        <h2>Особенности в работах</h2>
+      <section class="section">
+        <h2 class="section-title">Особенности в работах</h2>
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -63,8 +66,8 @@
         </ul>
       </section>
       <!-- Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -87,8 +90,8 @@
         </ul>
       </section>
       <!-- Команда-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section-our-team">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -97,12 +100,12 @@
               width="270"
             />
             <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p class="list">Product Designer</p>
             </li>
           <li>
             <img src="./images/olgarepina.jpg" alt="Ольга Репина" width="270" />
             <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <p class="list">Frontend Developer</p>
             </li>
           <li>
             <img
@@ -111,7 +114,7 @@
               width="270"
             />
             <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p class="list">Marketing</p>
             </li>
           <li>
             <img
@@ -120,19 +123,19 @@
               width="270"
             />
             <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p class="list">UI Designer</p>
             </li>
         </ul>
       </section>
     </main>
     <!--Футер-->
     <footer>
-      <a href="/">WebStudio</a>
+      <a href="/" class="logo">Web<span class="accent-footer">Studio</span></a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26 </p>
         <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="adress" href="https://goo.gl/maps/MWfXR5edQ5mQwXb56" target="_blank" rel="noreferrer noopener" title="карты google">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li><a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
